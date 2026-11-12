@@ -1,0 +1,89 @@
+{
+  "schema": "better-app-store-review/facts@1",
+  "note": "Single source for facts that change often. Checks, the report format, and scripts/scan.py read values from here. Update this file first when refreshing the skill.",
+  "baseline": {
+    "guidelines_last_updated": "2026-10-16",
+    "verified_on": "2026-11-11",
+    "guidelines_url": "https://developer.apple.com/app-store/review/guidelines/",
+    "news_feed_url": "https://developer.apple.com/news/rss/news.rss",
+    "upcoming_requirements_url": "https://developer.apple.com/news/upcoming-requirements/"
+  },
+  "upload_requirements": [
+    {
+      "id": "ios-26-sdk",
+      "effective": "2026-04-28",
+      "min_xcode_major": 26,
+      "min_ios_sdk_major": 26,
+      "summary": "Uploads must be built with Xcode 26 or later and the iOS 26 SDK",
+      "source": "https://developer.apple.com/news/?id=ueeok6yw"
+    },
+    {
+      "id": "ios-27-sdk",
+      "effective": "2027-04",
+      "min_xcode_major": 27,
+      "min_ios_sdk_major": 27,
+      "summary": "Uploads must be built with Xcode 27 or later and the iOS 27 SDK (Apple announced April 2027 without a day)",
+      "source": "https://developer.apple.com/news/?id=k1mtkt1k"
+    }
+  ],
+  "min_deployment_target": {
+    "ios": "13.0",
+    "effective": "2026-09-09",
+    "source": "https://developer.apple.com/news/upcoming-requirements/"
+  },
+  "eas_ios_images": {
+    "as_of": "2026-11-11",
+    "source": "https://docs.expo.dev/build-reference/infrastructure/",
+    "default_image": "auto",
+    "sdk_alias_xcode": {
+      "54": "26.0",
+      "55": "26.2",
+      "56": "26.4",
+      "57": "26.6",
+      "58": "27.1"
+    },
+    "latest_xcode": "27.1",
+    "below_lowest_alias_xcode_major": 16,
+    "scene_lifecycle": {
+      "required_from_xcode_major": 27,
+      "native_from_sdk": 58,
+      "flag_sdk": 57,
+      "flag": "ios.enableSceneSupport in expo-build-properties",
+      "rule": "Apps built on Xcode 27 images launch on iOS 27 only with the UIKit scene life cycle; SDK 57 needs the flag, older SDKs must use auto or their sdk alias"
+    }
+  },
+  "siwa_relay_domains": ["privaterelay.appleid.com", "private.icloud.com"],
+  "deadlines": [
+    {
+      "date": "2026-11-16",
+      "item": "Declare Shared Location and Dating and Relationships in the age rating questionnaire when submitting an update or editing the age rating",
+      "checks": ["F1"],
+      "source": "https://developer.apple.com/news/?id=yxkh08us"
+    },
+    {
+      "date": "2027-01-12",
+      "item": "Every app must have the Shared Location and Dating and Relationships declarations",
+      "checks": ["F1"],
+      "source": "https://developer.apple.com/news/?id=yxkh08us"
+    },
+    {
+      "date": "2027-01",
+      "approximate": true,
+      "item": "Existing Health and Fitness or Medical apps in the EU/EEA, UK, or US must declare regulated medical device status (Apple: \"early 2027\") or lose the ability to submit updates",
+      "checks": ["G8"],
+      "source": "https://developer.apple.com/news/?id=nyqbfz1y"
+    },
+    {
+      "date": "2027-04",
+      "item": "Uploads require Xcode 27 and the iOS 27 SDK",
+      "checks": ["I1"],
+      "source": "https://developer.apple.com/news/?id=k1mtkt1k"
+    },
+    {
+      "date": "2027-04",
+      "item": "Submissions must include iPhone Duo screenshots",
+      "checks": ["I9"],
+      "source": "https://developer.apple.com/news/?id=kkphp5qo"
+    }
+  ]
+}

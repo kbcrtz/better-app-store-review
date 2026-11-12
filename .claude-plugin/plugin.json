@@ -1,0 +1,25 @@
+{
+  "name": "better-app-store-review",
+  "version": "3.0.0",
+  "description": "Multi-agent App Store rejection audit for React Native, Expo, and Swift iOS apps, with verified findings, a fix loop, and rejection recovery.",
+  "author": {
+    "name": "kbcrtz",
+    "url": "https://github.com/kbcrtz"
+  },
+  "homepage": "https://github.com/kbcrtz/better-app-store-review",
+  "repository": "https://github.com/kbcrtz/better-app-store-review",
+  "license": "MIT",
+  "keywords": [
+    "app-store",
+    "app-review",
+    "ios",
+    "apple",
+    "react-native",
+    "expo",
+    "swift",
+    "privacy",
+    "in-app-purchase",
+    "compliance",
+    "rejection"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better App Store Review"
+  short_description: "Find App Store rejection risks before Apple does"
+  default_prompt: "Use $better-app-store-review to audit this app for App Store rejection risk before submission."

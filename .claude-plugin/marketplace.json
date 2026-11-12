@@ -1,0 +1,31 @@
+{
+  "name": "better-app-store-review",
+  "owner": {
+    "name": "kbcrtz",
+    "url": "https://github.com/kbcrtz"
+  },
+  "metadata": {
+    "description": "Better App Store Review: multi-agent App Store rejection audit"
+  },
+  "plugins": [
+    {
+      "name": "better-app-store-review",
+      "source": "./",
+      "description": "Multi-agent App Store rejection audit for React Native, Expo, and Swift iOS apps, with verified findings, a fix loop, and rejection recovery.",
+      "version": "3.0.0",
+      "author": {
+        "name": "kbcrtz",
+        "url": "https://github.com/kbcrtz"
+      },
+      "category": "development",
+      "tags": [
+        "ios",
+        "app-store",
+        "app-review",
+        "react-native",
+        "expo",
+        "swift"
+      ]
+    }
+  ]
+}

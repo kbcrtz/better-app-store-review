@@ -1,0 +1,44 @@
+{
+  "name": "better-app-store-review",
+  "version": "3.0.0",
+  "description": "Multi-agent App Store rejection audit for React Native, Expo, and Swift iOS apps, with verified findings, a fix loop, and rejection recovery.",
+  "author": {
+    "name": "kbcrtz",
+    "url": "https://github.com/kbcrtz"
+  },
+  "homepage": "https://github.com/kbcrtz/better-app-store-review",
+  "repository": "https://github.com/kbcrtz/better-app-store-review",
+  "license": "MIT",
+  "keywords": [
+    "app-store",
+    "app-review",
+    "ios",
+    "apple",
+    "react-native",
+    "expo",
+    "swift",
+    "privacy",
+    "in-app-purchase",
+    "compliance",
+    "rejection"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Better App Store Review",
+    "shortDescription": "Find App Store rejection risks before Apple does",
+    "longDescription": "Audit an iOS app (React Native, Expo, Swift, or Objective-C) against Apple's current App Review Guidelines with parallel domain auditors, skeptic verification, an App Store Connect checklist, a review notes draft, an approval-gated fix loop, and rejection recovery.",
+    "developerName": "kbcrtz",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/kbcrtz/better-app-store-review",
+    "defaultPrompt": [
+      "Will my app get rejected? Run a full audit.",
+      "Quick App Store check, blockers only.",
+      "My app was rejected. Diagnose it and draft a reply."
+    ],
+    "brandColor": "#3559D8"
+  }
+}
