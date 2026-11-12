@@ -6,6 +6,7 @@
 [![Apple guidelines baseline October 16, 2026](https://img.shields.io/badge/Apple%20guidelines-2026--10--16-3559D8.svg)](https://developer.apple.com/app-store/review/guidelines/)
 ![React Native, Expo, Swift](https://img.shields.io/badge/stack-React%20Native%20%7C%20Expo%20%7C%20Swift-61DAFB.svg)
 ![Version 3.0.0](https://img.shields.io/badge/version-3.0.0-555.svg)
+[![skills.sh](https://skills.sh/b/kbcrtz/better-app-store-review)](https://skills.sh/kbcrtz/better-app-store-review)
 
 **Current through:** Apple's App Review Guidelines, last updated [October 16, 2026](https://developer.apple.com/news/?id=92th7e5i). Checked against Apple's live page on November 11, 2026. Every audit re-checks Apple's date before it starts.
 
